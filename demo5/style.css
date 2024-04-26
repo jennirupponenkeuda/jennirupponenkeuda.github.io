@@ -1,10 +1,10 @@
 body {
 margin: 0;
-padding: 0;
-font: 73% verdana, "Trebuchet MS", arial, tahoma, sans-serif;
+padding: 200;
+font: 73% TimesNewRoman;
 line-height: 1.7em;
-color: #800080;
-background: #c3db63 url(img/bg.jpg) repeat-y top center;
+color :#FFD700;
+background: #1f1e1f url(img/kukkakuva.jpeg) repeat-y top center;
 }
 #container {
 width : 740px;
@@ -12,33 +12,33 @@ margin-left : auto;
 margin-right : auto;
 padding : 0;
 border : 5px solid #fff;
-color : #666;
-background : #fff;
+color :#FFD700;
+background:#000000;
 }
 			/*TOP BANNER*/
 #banner {
 height: 150px;
 padding: 0;
 margin: 0;
-color: #800080;
-background: #c4da64 url(img/banner.jpg) repeat-x;
+color : #FFD700;
+background: #E2725B url(img/banneri.jpg) repeat-x;
 }
 #banner h1 {
 margin-top : 0;
 padding : 5px 0 0 15px;
 font-size : 2em;
 border-bottom : none;
-color : #DB7066;
-background : inherit;
+color :#000000;
+background :#800080;
 }
 			/*TOP MENU*/
 #navlist {
 padding : 3px 0;
 margin : 0;
-text-align : left;
+text-align : right;
 letter-spacing : 1px;
 border : 0px solid #eee;
-background : #ebfbb0;
+background :#000000;
 }
 #navlist li {
 list-style : none;
@@ -49,7 +49,7 @@ display : inline;
 padding : 6px 0.5em;
 margin-left : 3px;
 color : #4d6912;
-background : #ebfbb0;
+background : 	#000000;
 text-decoration : none;
 }
 #navlist li a:link, #navlist li a:visited {
@@ -57,16 +57,16 @@ color : #4d6912;
 background : #ebfbb0;
 }
 #navlist li a:hover, #navlist li a#current {
-color : #333;
-background : #c3db63;
+color : #000000;
+background : #960018;
 }
 			/*MAIN CONTENT*/
 #content {
-	padding: 5px;
-	margin-left: 192px;
-	margin-bottom: 0;
-	color: #800080;
-	background: #fff;
+padding: 50px;
+margin-left: 195px;
+margin-bottom: 0;
+color : #FFD700;
+	background: #960018;
 }
 			/*SIDEBAR*/
 #sidebar {
@@ -79,7 +79,7 @@ border-right : 1px solid #eee;
 			/*SIDEBAR LINKS*/
 #sidebar ul li {
 margin : 0 15px 0 0;
-padding : 0;
+padding : 20;
 list-style-type : square;
 color : #DB7066;
 background : inherit;
@@ -87,7 +87,7 @@ background : inherit;
 #sidebar a {
 text-decoration : none;
 color : #4d6912;
-background : #fff;
+background :#000000;
 }
 #sidebar a:hover {
 color : #333;
@@ -102,7 +102,7 @@ margin : 0;
 text-align : left;
 border-top : 1px solid #c3db63;
 color : #DB7066;
-background : #fff;
+background :#000000;
 }
 			/*TYPOGRAPHY*/
 h1 {
@@ -113,29 +113,25 @@ letter-spacing : 3px;
 border-bottom : 1px solid #eee;
 text-transform : uppercase;
 color : #DB7066;
-background : inherit;
+background :#800080;
 }
 h2 {
-padding : 10px;
+padding : 75px;
 font : bold 130% verdana, tahoma, "Trebuchet MS", sans-serif;
-color : #F3F7E0;
-background : inherit;
+color :#DB7066;
+background : #FFFFFF;
 }
-blockquote {
-font-weight : bold;
-font-style : italic;
-color : #b29b35;
-}
+
 			/*LINKS*/
 a {
 text-decoration : underline;
 color : #4d6912;
-background : inherit;
+background : #FFBF00;
 }
 a:hover {
 text-decoration : none;
 color : #2b4d01;
-background : inherit;
+background :#007FFF;
 }
 a img {
 border : 0;
@@ -143,7 +139,11 @@ border : 0;
 
 			/*ROUNDED CORNERS*/
 .rbroundbox {
-background : url(img/nt2.gif) repeat;
+background : url(img/banneri.jpg);
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 90%;
 }
 .rbtop div {
 background : url(img/tl2.gif) no-repeat top left;
@@ -171,5 +171,5 @@ margin : 0.5em auto;
 			/*IMAGES*/
 .imgleft {
 float : left;
-padding-left : 15px;
+padding-left : 50px;
 }
