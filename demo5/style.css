@@ -68,14 +68,7 @@ margin-bottom: 0;
 color : #FFD700;
 	background: #960018;
 }
-			/*SIDEBAR*/
-#sidebar {
-float : left;
-width : 175px;
-margin : 0 10px 0 0;
-padding : 5px;
-border-right : 1px solid #eee;
-}
+
 			/*SIDEBAR LINKS*/
 #sidebar ul li {
 margin : 0 15px 0 0;
@@ -92,6 +85,24 @@ background :#000000;
 #sidebar a:hover {
 color : #333;
 background : #c3db63;
+}
+#footer {
+clear : both;
+height: 50px;
+padding : 3px;
+margin : 0;
+text-align : left;
+border-top : 1px solid #c3db63;
+color : #DB7066;
+background :#000000;
+}
+/*SIDEBAR*/
+#sidebar {
+float : left;
+width : 175px;
+margin : 0 10px 0 0;
+padding : 5px;
+border-right : 1px solid #eee;
 }
 			/*FOOTER*/
 #footer {
