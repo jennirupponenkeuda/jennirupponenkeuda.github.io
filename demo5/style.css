@@ -1,10 +1,10 @@
 body {
-margin : 0;
-padding : 0;
-font : 73% verdana, "Trebuchet MS", arial, tahoma, sans-serif;
-line-height : 1.7em;
-color : #666;
-background : #c3db63 url(img/bg.jpg) repeat-y top center;
+margin: 0;
+padding: 0;
+font: 73% verdana, "Trebuchet MS", arial, tahoma, sans-serif;
+line-height: 1.7em;
+color: #800080;
+background: #c3db63 url(img/bg.jpg) repeat-y top center;
 }
 #container {
 width : 740px;
@@ -17,11 +17,11 @@ background : #fff;
 }
 			/*TOP BANNER*/
 #banner {
-height : 150px;
-padding : 0;
-margin : 0;
-color : #666;
-background : #c4da64 url(img/banner.jpg) repeat-x;
+height: 150px;
+padding: 0;
+margin: 0;
+color: #800080;
+background: #c4da64 url(img/banner.jpg) repeat-x;
 }
 #banner h1 {
 margin-top : 0;
@@ -62,11 +62,11 @@ background : #c3db63;
 }
 			/*MAIN CONTENT*/
 #content {
-padding : 5px;
-margin-left : 192px;
-margin-bottom : 0;
-color : #666;
-background : #fff;
+	padding: 5px;
+	margin-left: 192px;
+	margin-bottom: 0;
+	color: #800080;
+	background: #fff;
 }
 			/*SIDEBAR*/
 #sidebar {
