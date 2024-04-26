@@ -103,6 +103,7 @@ width : 175px;
 margin : 0 10px 0 0;
 padding : 5px;
 border-right : 1px solid #eee;
+border-radius: 60%;
 }
 			/*FOOTER*/
 #footer {
@@ -130,7 +131,7 @@ h2 {
 padding : 75px;
 font : bold 130% verdana, tahoma, "Trebuchet MS", sans-serif;
 color :#DB7066;
-background : #FFFFFF;
+background : #FFFFFF 
 }
 
 			/*LINKS*/
@@ -154,7 +155,8 @@ background : url(img/banneri.jpg);
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 90%;
+width: 100%;
+
 }
 .rbtop div {
 background : url(img/tl2.gif) no-repeat top left;
@@ -182,5 +184,5 @@ margin : 0.5em auto;
 			/*IMAGES*/
 .imgleft {
 float : left;
-padding-left : 50px;
+padding-left : 100px;
 }
