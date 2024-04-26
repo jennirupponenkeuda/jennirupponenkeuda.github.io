@@ -151,7 +151,7 @@ border : 0;
 
 			/*ROUNDED CORNERS*/
 .rbroundbox {
-background : url(img/banneri.jpg);
+background : url(img/ruususet.jpg);
 display: block;
 margin-left: auto;
 margin-right: auto;
@@ -185,4 +185,10 @@ margin : 0.5em auto;
 .imgleft {
 float : left;
 padding-left : 100px;
+}
+.greatedimage
+{
+	border-width: 5px;
+	border-style: solid;
+	
 }
